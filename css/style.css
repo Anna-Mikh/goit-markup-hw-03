@@ -46,6 +46,7 @@ img {
     padding-bottom: 94px;
 }
 
+
 .link .nav-link {
     text-decoration: none;
 }
@@ -191,9 +192,11 @@ img {
 .nav-secondary {
     display: flex;
     margin-left: auto;
-
 }
 
+.nav-secondary .item:not(:last-child) {
+    margin-right: 50px;
+}
 
 .nav-secondary-link {
     font-weight: 500;
@@ -324,7 +327,9 @@ img {
 
 /*Страница Portfolio*/
 
-
+.section.nav {
+    padding-bottom: 0;
+}
 
 .main-portfolio .portfolio-button {
     font-family: inherit;
@@ -352,8 +357,17 @@ img {
     justify-content: center;
 }
 
-.button-list:not(:last-child) {
+.button-list .item:not(:last-child) {
     margin-right: 8px;
+}
+
+.project {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .text-title-portfolio {
