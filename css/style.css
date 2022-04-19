@@ -102,7 +102,10 @@ img {
     padding: 0;
     margin-top: 24px;
     margin-bottom: 25px;
+    margin-right: 94px;
 }
+
+
 
 .logo-half-footer {
     font-family: 'Raleway';
@@ -130,7 +133,7 @@ img {
     text-transform: uppercase;
     color: var(--accent-color);
 
-    margin-top: 0;
+    margin-top: 200;
     margin-bottom: 30px;
 }
 
@@ -166,6 +169,8 @@ img {
 .nav-title {
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-link {
@@ -185,10 +190,12 @@ img {
 
 .nav-secondary {
     display: flex;
+    margin-left: auto;
+
 }
 
 
-.nav-secondary .link {
+.nav-secondary-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -211,6 +218,19 @@ img {
     align-items: center;
     
 }
+
+
+.flex-container {
+    display: flex;
+    margin-top: 94px;
+    margin-left: -30px;
+}
+
+.flex-container-img {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+}
+
 
 .text-title {
     color: var(--title-text-color);
@@ -304,6 +324,8 @@ img {
 
 /*Страница Portfolio*/
 
+
+
 .main-portfolio .portfolio-button {
     font-family: inherit;
     font-size: 16px;
@@ -313,7 +335,7 @@ img {
     background-color: #F5F4FA;
     cursor: pointer;
     display: inline-block;
-    margin-top: 180px;
+   
     margin-bottom: 50px;
     display: inline;
 }
@@ -324,6 +346,15 @@ img {
     background-color: var(--sekondary-color);
 }
 
+.button-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-list:not(:last-child) {
+    margin-right: 8px;
+}
 
 .text-title-portfolio {
     font-weight: 700;
