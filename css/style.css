@@ -46,6 +46,9 @@ img {
     padding-bottom: 94px;
 }
 
+.section.header {
+    padding-bottom: 0;
+}
 
 .link .nav-link {
     text-decoration: none;
@@ -134,7 +137,7 @@ img {
     text-transform: uppercase;
     color: var(--accent-color);
 
-    margin-top: 200;
+    margin-top: 200 px;
     margin-bottom: 30px;
 }
 
@@ -144,7 +147,7 @@ img {
     font-size: 16px;
     line-height: 1.9;
     cursor: pointer;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     align-items: center;
     text-align: center;
@@ -155,6 +158,8 @@ img {
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+
 }
 
 /*Navigatin*/
@@ -222,8 +227,23 @@ img {
     
 }
 
-
 .flex-container {
+    display: flex;
+    margin-top: 94px;
+}
+
+.peculiarities {
+    width: 270px;
+    margin: 15px;
+}
+
+.flex-container .peculiarities {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.flex-container.img {
     display: flex;
     margin-top: 94px;
     margin-left: -30px;
